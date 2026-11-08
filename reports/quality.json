@@ -1,0 +1,8 @@
+{
+  "input_rows": 3650,
+  "exact_duplicates_removed": 36,
+  "conflicting_rows_rejected": 4,
+  "invalid_rows_rejected": 12,
+  "cancelled_orders_excluded": 246,
+  "valid_delivered_orders": 3352
+}

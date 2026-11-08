@@ -1,0 +1,21 @@
+{
+  "provenance": {
+    "data_kind": "synthetic",
+    "seed": 42,
+    "base_orders": 3600,
+    "raw_sha256": "c41e426be1c6676279a6d2e1a915d148fb3a488f8b9240679a464b695a36055d",
+    "sql_sha256": "17c5c5c164a4b1b830e32d688ca7499182bd2cb9cce2501180dda4ab5d6f6725"
+  },
+  "summary": {
+    "orders": 3352,
+    "units_sold": 4987,
+    "units_returned": 255,
+    "orders_with_returns": 245,
+    "gross_cents": 72874079,
+    "refund_cents": 4454032,
+    "net_cents": 68420047,
+    "unit_return_pct": 5.1132945659,
+    "revenue_refund_pct": 6.1119564887,
+    "gross_ticket_cents": 21740.4770286396
+  }
+}
