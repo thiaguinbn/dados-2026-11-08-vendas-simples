@@ -48,9 +48,8 @@ def plot_overview(tables, path):
                 label="Valor devolvido")
     axes[0].set(title="Receita por mês • 2025", xlabel="Mês da venda",
                 ylabel="R$ mil • após descontos")
-    axes[0].legend(frameon=False, fontsize=9, loc="lower left",
-                   bbox_to_anchor=(0, 1.0), ncol=2, borderaxespad=0)
-    axes[0].title.set_y(1.09)
+    axes[0].legend(frameon=False, fontsize=9, loc="upper left")
+    axes[0].set_ylim(0, monthly["gross_cents"].max() / 100000 * 1.25)
     ranking = products.sort_values("unit_return_pct")
     bars = axes[1].barh(ranking["product"], ranking["unit_return_pct"],
                         color="#e8a24a", zorder=3)
